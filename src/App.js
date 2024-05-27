@@ -77,7 +77,7 @@ function App() {
     const body = `${JSON.stringify(submissionData, null, 2)}
     `;
     
-    const mailtoLink = `mailto:jonas.fischer@sktst.dk&subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:jonas.fischer@sktst.dk?subject=${subject}&body=${body}`;
 
     // Open the mail client
     window.location.href = mailtoLink;
