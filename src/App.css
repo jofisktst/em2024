@@ -1,0 +1,72 @@
+/* Add some general styling and spacing */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.match-container, .medal-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guld {
+background-color: rgb(255, 215, 0)
+}
+
+.sølv {
+  background-color: rgb(192, 192, 192) 
+}
+
+.bronze {
+  background-color: rgb(205, 127, 50)
+}
+
+.match-buttons button, .medal-container select {
+  margin-left: 5px;
+}
+
+button.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.fejl-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #828382;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+button.submit-button:hover {
+  background-color: #45a049;
+}
+
+input.name-input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.match-name {
+  font-weight: bold;
+  min-width: 150px;
+  text-align: right;
+}
+
+h3 {
+  max-width: 600px;
+}
